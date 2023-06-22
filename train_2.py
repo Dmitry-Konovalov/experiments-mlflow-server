@@ -47,7 +47,7 @@ def train(df):
 
             n_estimators = trial.suggest_int("n_estimators", 20, 150)
             max_depth = trial.suggest_int("max_depth", 2, 20, log=True)
-            max_features = trial.suggest_float("max_features", 'log2', 'sqrt')
+            max_features = trial.suggest_float("max_features", 0.1, 2.0, step=0.2)
             min_samples_leaf = trial.suggest_int("min_samples_leaf", 2, 30)
             min_samples_split = trial.suggest_int("min_samples_split", 2, 30)
 
@@ -57,7 +57,7 @@ def train(df):
             return np.mean(cross_val_score(forest, X_train_os, y_train_os, cv=3, n_jobs=-1, scoring='r2'))
 
         study = optuna.create_study(direction="maximize")
-        study.optimize(objective, n_trials=70)
+        study.optimize(objective, n_trials=100)
 
         best_params = study.best_params
 
