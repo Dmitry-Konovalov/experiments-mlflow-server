@@ -47,7 +47,7 @@ def train(df):
 
             n_estimators = trial.suggest_int("n_estimators", 20, 150)
             max_depth = trial.suggest_int("max_depth", 2, 20, log=True)
-            max_features = trial.suggest_float("max_features", 0.1, 2.0, step=0.2)
+            max_features = trial.suggest_float("max_features", 0.1, 1.0, step=0.1)
             min_samples_leaf = trial.suggest_int("min_samples_leaf", 2, 30)
             min_samples_split = trial.suggest_int("min_samples_split", 2, 30)
 

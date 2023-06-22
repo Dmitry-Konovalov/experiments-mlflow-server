@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/experiments-mlflow-server/mlruns/164828872445084945/1f658a8ce85b478983948fc7be464aff/artifacts
+end_time: 1687423522202
+entry_point_name: ''
+experiment_id: '164828872445084945'
+lifecycle_stage: active
+run_id: 1f658a8ce85b478983948fc7be464aff
+run_name: big-dove-762
+run_uuid: 1f658a8ce85b478983948fc7be464aff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687423519880
+status: 4
+tags: []
+user_id: dmitry

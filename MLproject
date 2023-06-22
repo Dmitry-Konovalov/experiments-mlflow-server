@@ -1,0 +1,5 @@
+name: experiments-mlflow-server
+
+entry_points:
+    main:
+        command: "python train_2.py"
