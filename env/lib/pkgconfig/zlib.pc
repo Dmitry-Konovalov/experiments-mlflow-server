@@ -1,0 +1,13 @@
+prefix=/Users/dmitry/opt/anaconda3/envs/env
+exec_prefix=/Users/dmitry/opt/anaconda3/envs/env
+libdir=/Users/dmitry/opt/anaconda3/envs/env/lib
+sharedlibdir=/Users/dmitry/opt/anaconda3/envs/env/lib
+includedir=/Users/dmitry/opt/anaconda3/envs/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
