@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/0c9cf9c4982f48748d009230f2bf3112/artifacts
+end_time: 1687777255745
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: 0c9cf9c4982f48748d009230f2bf3112
+run_name: sassy-shrew-528
+run_uuid: 0c9cf9c4982f48748d009230f2bf3112
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687777215208
+status: 4
+tags: []
+user_id: dmitry

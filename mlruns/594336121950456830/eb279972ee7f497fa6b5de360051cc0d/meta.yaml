@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/eb279972ee7f497fa6b5de360051cc0d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: eb279972ee7f497fa6b5de360051cc0d
+run_name: nebulous-toad-955
+run_uuid: eb279972ee7f497fa6b5de360051cc0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687774902954
+status: 1
+tags: []
+user_id: dmitry

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/cdb7d8f82bc24e0fbb7f298f3dfa8949/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: cdb7d8f82bc24e0fbb7f298f3dfa8949
+run_name: rumbling-fowl-746
+run_uuid: cdb7d8f82bc24e0fbb7f298f3dfa8949
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687774733067
+status: 1
+tags: []
+user_id: dmitry

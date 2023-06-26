@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/bdbda3086c5745e681f3dd0820e92f2f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: bdbda3086c5745e681f3dd0820e92f2f
+run_name: bittersweet-worm-552
+run_uuid: bdbda3086c5745e681f3dd0820e92f2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687776831001
+status: 1
+tags: []
+user_id: dmitry

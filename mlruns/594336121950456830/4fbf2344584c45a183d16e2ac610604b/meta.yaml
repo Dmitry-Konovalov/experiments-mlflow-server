@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/4fbf2344584c45a183d16e2ac610604b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: 4fbf2344584c45a183d16e2ac610604b
+run_name: mysterious-shrimp-58
+run_uuid: 4fbf2344584c45a183d16e2ac610604b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687774362384
+status: 1
+tags: []
+user_id: dmitry

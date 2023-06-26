@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/9ed81f2fb49c4046851c184e930a70eb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: 9ed81f2fb49c4046851c184e930a70eb
+run_name: rare-bug-376
+run_uuid: 9ed81f2fb49c4046851c184e930a70eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687774263174
+status: 1
+tags: []
+user_id: dmitry

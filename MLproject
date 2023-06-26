@@ -1,7 +1,7 @@
 name: experiments-mlflow-server
 
 docker_env:
-    image: experiment:1.0
+    image: experiment:2.0
     environment: [["MLFLOW_TRACKING_URI", "http://mlflow:5000"], ["MLFLOW_S3_ENDPOINT_URL", "http://minio:9000"], "AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"]
 
 entry_points:

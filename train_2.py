@@ -42,7 +42,7 @@ def train(df):
     # Теперь X_train_os и y_train_os содержат сбалансированные данные для тренировочной выборки
     # X_test и y_test содержат несбалансированные данные для тестовой выборки
 
-    with mlflow.start_run(experiment_id=0):  
+    with mlflow.start_run():  
 
         def objective(trial):
 
