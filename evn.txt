@@ -1,0 +1,4 @@
+переменные для окружения: 
+    export MLFLOW_TRACKING_URI=http://localhost:5050 
+    export AWS_ACCESS_KEY_ID=experiment_s1 
+    export AWS_SECRET_ACCESS_KEY=querty123456  
