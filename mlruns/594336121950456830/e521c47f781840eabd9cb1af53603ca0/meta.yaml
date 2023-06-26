@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/e521c47f781840eabd9cb1af53603ca0/artifacts
+end_time: 1687709488823
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: e521c47f781840eabd9cb1af53603ca0
+run_name: clumsy-snail-604
+run_uuid: e521c47f781840eabd9cb1af53603ca0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687709445079
+status: 3
+tags: []
+user_id: dmitry

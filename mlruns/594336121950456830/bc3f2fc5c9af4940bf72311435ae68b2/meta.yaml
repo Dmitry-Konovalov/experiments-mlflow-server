@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dmitry/experiments-mlflow-server/mlruns/594336121950456830/bc3f2fc5c9af4940bf72311435ae68b2/artifacts
+end_time: 1687709701235
+entry_point_name: ''
+experiment_id: '594336121950456830'
+lifecycle_stage: active
+run_id: bc3f2fc5c9af4940bf72311435ae68b2
+run_name: bold-mare-530
+run_uuid: bc3f2fc5c9af4940bf72311435ae68b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687709528559
+status: 4
+tags: []
+user_id: dmitry

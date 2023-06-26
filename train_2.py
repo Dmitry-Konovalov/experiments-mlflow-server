@@ -3,7 +3,7 @@ import os
 
 import pandas as pd
 import boto3
-from dotenv import load_dotenv
+
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
@@ -29,6 +29,7 @@ def read_df_from_s3(bucket='datasets', file_name='winequality-red.csv'):
 
     return df 
 
+
 def train(df):
     X_train, X_test, y_train, y_test = train_test_split(df.drop(['quality'], axis=1),
                                                     df['quality'], test_size=0.30,
@@ -41,7 +42,7 @@ def train(df):
     # Теперь X_train_os и y_train_os содержат сбалансированные данные для тренировочной выборки
     # X_test и y_test содержат несбалансированные данные для тестовой выборки
 
-    with mlflow.start_run(): 
+    with mlflow.start_run(experiment_id=0):  
 
         def objective(trial):
 
@@ -85,7 +86,7 @@ def train(df):
         mlflow.sklearn.log_model(model_2, 'classifier_2')
 
 if __name__ == '__main__':
-    load_dotenv()
+
 
     df = read_df_from_s3()
     print(df.head())
