@@ -1,4 +1,13 @@
+сделать докер образ:
+    docker build -f Dockerfile -t experiment:1.0 . 
+
 переменные для окружения: 
     export MLFLOW_TRACKING_URI=http://localhost:5050 
     export AWS_ACCESS_KEY_ID=experiment_s1 
     export AWS_SECRET_ACCESS_KEY=querty123456  
+
+запуск с локалки:
+    mlflow run . --experiment-name=experiment_4 --build-image --docker-args network=mlflow-server_mlflow_net
+
+запуск с гит:
+    mlflow run https://github.com/Dmitry-Konovalov/experiments-mlflow-server.git --experiment-name=experiment_4 --build-image --docker-args network=mlflow-server_mlflow_net
